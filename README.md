@@ -22,16 +22,22 @@ Now you can start over! :D
 - Multiplayer. Adding at least a local multiplayer could be fun! The scoring system decided could be use for each player and let the competition going
 
 ## **How to run the project**
-You need to install Expo Go in your mobile/tablet to be able to test it in the device!
+You'll need to install Expo Go in your mobile/tablet if you don't have it already to be able to test it in a device!
+
 To check the project out as easiest possible:
 
+### **Through the published version in expo.io**
+Using Expo Go, you can scan the QR available in https://expo.io/@afortunato/projects/memory-game or paste the url on the webbrowser!
+The project should open and work fine from there!
+
+### **Through the repository**
 Clone or download the repo and enter its folder.
 
 Install dependencies with `npm install`.
 
-Run the code with `npm start` (expo-cli is already installed in devDependencies, so it will take it from the folder ;D).
+Run the code with `npm start` (expo-cli is already installed in devDependencies, so it will use that one ;D).
 
-Open Expo Go in the mobile/tablet, and there you go!
+Open Expo Go in a mobile phone or tablet, and there you go!
 For Android you can scan the QR and for iOS you'll have to paste the url on the webbrowser.
 
 Enjoy!
