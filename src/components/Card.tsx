@@ -14,13 +14,14 @@ function Card(props: PropsWithChildren<CardProps>): React.ReactElement | null {
   const [isFlipped, setFlipped] = useState<boolean>(false)
 
   useEffect(() => {
+    // flip the card back after a bit to give the player enough time to see the content
     setTimeout(() => {
       if (flippedCards.includes(id) && !isFlipped) {
         setFlipped(true)
       } else if (!flippedCards.includes(id) && isFlipped) {
         setFlipped(false)
       }
-    }, 0)
+    }, 350)
   }, [id, flippedCards, isFlipped])
 
   if (showEmpty) {

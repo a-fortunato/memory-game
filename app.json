@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "memory-game",
+    "name": "Memory Game",
     "slug": "memory-game",
     "version": "1.0.0",
+    "description": "Very basic approach to the classic Concentration / Memory cards game.",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
